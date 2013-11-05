@@ -1,4 +1,1 @@
--JSCourse
-=========
-
- JS Course
+List of Home Works for JS course
