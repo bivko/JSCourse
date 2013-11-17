@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Work 1</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header class="header">
+			<nav class="header-nav">
+				<a href="#about">Home</a>
+				<a href="#faq">FAQ</a>
+				<a href="#contacts">Contacts</a>
+				<a href="#register">Stay in Touch</a>
+			</nav>
+		</header>
+		<main role="main" class="main">
+			<section id="about" class="about">
+				<p>
+					<img src="images/about.png" alt="" class="about-first">
+					Первостепенный текст Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
+				</p>
+				<p>Второстепенный текст, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
+				<p>
+					<img src="images/about.png" alt="" class="about-last">
+					Третий сорт, забиваем полосу Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
+				</p>
+			</section>
+			<section id="faq" class="faq">
+				<h2>FAQ</h2>
+				<dl>
+					<dt>Забыл пароль</dt>
+					<dd>Если при регистрации вы указывали e-mail адрес, то нужно кликнуть по ссылке «Представиться/зарегистрироваться» в правом верхнем углу, ввести имя участника, ниже нажать кнопку «выслать новый пароль».</dd>
+					<dt>Хочу изменить имя участника</dt>
+					<dd>Изменить ваше имя участника может только «бюрократ» проекта. Обращайтесь на страницу Википедия:Запросы на переименование учётных записей.</dd>
+					<dt>Хочу удалить свою учётную запись</dt>
+					<dd>Это невозможно по техническим причинам. Просто перестаньте ею пользоваться.</dd>
+					<dt>Насколько родственны проекты Фонда Викимедиа?</dt>
+					<dd>Начиная с марта 2008, при регистрации в любом проекте Фонда имя участника автоматически резервируется во всех остальных проектах, подробнее см. meta:Help:Unified login/ru.</dd>
+				</dl>
+			</section>
+			<section id="contacts" class="contacts">
+				<h2>Contacts</h2>
+				<img src="images/map.png" alt="" class="contacts-map">
+				<dl class="contacts-list">
+					<dt>Address:</dt>
+					<dd>Some address 22, Kiev. Ukraine</dd>
+					<dt>Email:</dt>
+					<dd><a href="mailto:company@serious.business">company@serious.business</a></dd>
+					<dt>Phone:</dt>
+					<dd>38(044)123-45-67</dd>
+				</dl>
+			</section>
+			<section id="register">
+				<h2>Stay in Touch</h2>
+				<form action="register" class="register-form">
+					<div class="text-field">
+						<label for="email">E-mail:</label>
+						<input type="email" id="email" name="email" placeholder="some@mail.com">
+					</div>
+					<div class="text-field">
+						<label for="password">Pasword:</label>
+						<input type="password" id="password" name="password" placeholder="password">
+					</div>
+					<div class="checkbox-field">
+						<input type="checkbox" id="spam">
+						<label for="spam">I agree to get spam</label>
+					</div>
+					<input type="submit" value="Submit">
+				</form>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer-in">
+				<nav class="footer-nav">
+					<a href="#about">Home</a>
+					<a href="#faq">FAQ</a>
+					<a href="#contacts">Contacts</a>
+					<a href="#register">Stay in Touch</a>
+				</nav>
+				<form action="" class="feedback">
+					<h5>Let us hear your feedback</h5>
+					
+					<span>How likely will you advise us?</span>
+					
+				<input type="radio" id="advice-1" name="advice">
+				<label for="advice-1">--</label>
+				<input type="radio" id="advice-2" name="advice">
+				<label for="advice-2">-+</label>
+				<input type="radio" id="advice-3" name="advice">
+				<label for="advice-3">+-</label>
+				<input type="radio" id="advice-4" name="advice">
+				<label for="advice-4">++</label>
+			</form>
+			</div>
+		</footer>
+		<address>&copy; Copyright 2013 - Home Work 3</address>
+	</body>
+</html>
