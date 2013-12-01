@@ -1,0 +1,14 @@
+table{
+	border: 2px solid black;
+	width: 100%;
+}
+td{
+	border: 2px solid gray;
+	height: 50px;
+}
+td.current{
+	border: 2px solid red;
+}
+tr.current{
+	outline: 2px solid red;
+}
