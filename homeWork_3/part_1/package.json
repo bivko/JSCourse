@@ -1,0 +1,24 @@
+{
+  "name": "df",
+  "version": "0.0.0",
+  "description": "https://moqups.com/sudodoki/KljcOP8V",
+  "main": "grundfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dfdf",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "load-grunt-tasks": "~0.2.1"
+  },
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "load-grunt-tasks": "~0.2.1"
+  },
+  "keywords": [
+    "df"
+  ]
+}
